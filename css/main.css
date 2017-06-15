@@ -688,6 +688,10 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+.innerHeaderElemMobile{
+    display: none;
+}
 @media only screen and (max-width: 480px) {
    .headerLeft{
         width: 100%;
@@ -733,6 +737,10 @@ textarea {
     .innerHeaderElem{
         display: none;
     }
+    .innerHeaderElemMobile{
+        display: block !important;
+        text-align: center;
+    }
     .leftWrpr{
         width: calc(100% - 99px);
         height: 740px;
@@ -746,7 +754,7 @@ textarea {
         padding: 20px;
         background-color: rgba(0,0,0,0.8);
         border-radius: 5px;
-        width: 250px;
+        width: 100%;
         box-sizing: border-box;
         margin-bottom: 100px;
         margin-top: 20px;
@@ -764,5 +772,31 @@ textarea {
     }
     .headerLeft{
         text-align: center;
+    }
+
+    .moveHandAnim{
+        display: block;
+        top: calc(50vh);
+        left: calc(50% - 20px);
+        animation: moveHand 1.5s ease-in-out;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+    }
+    @keyframes moveHand{
+        0% {
+            transform:
+                    translate(0);
+                    opacity: 1;
+        }
+        99% {
+            transform:
+                    translate(-120px, -220px);
+                    opacity: 1;
+        }
+        100% {
+            transform:
+                    translate(-120px, -220px);
+                    opacity: 0;
+        }
     }
 }

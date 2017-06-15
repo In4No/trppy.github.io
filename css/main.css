@@ -734,7 +734,7 @@ textarea {
         display: none;
     }
     .leftWrpr{
-        width: 100%;
+        width: calc(100% - 100px);
     }
     .rightWrpr{
         display: none;

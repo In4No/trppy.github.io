@@ -198,20 +198,6 @@ textarea {
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media only screen and (max-width: 480px) {
-   .headerLeft{
-        width: 100%;
-        float: left;
-    }
-    .headerWrpr{
-        width: 100%;
-        padding: 10px;
-        background-color: #ffffff;
-        box-sizing: border-box;
-        border-bottom: 2px solid #bfbfbf;
-        height: 70px;
-    }
-}
 
 .bodyBg{
     background-color: #fffff2;
@@ -700,5 +686,19 @@ textarea {
     h2,
     h3 {
         page-break-after: avoid;
+    }
+}
+@media only screen and (max-width: 480px) {
+   .headerLeft{
+        width: 100%;
+        float: left;
+    }
+    .headerWrpr{
+        width: 100%;
+        padding: 10px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        border-bottom: 2px solid #bfbfbf;
+        height: 70px;
     }
 }

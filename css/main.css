@@ -730,4 +730,7 @@ textarea {
         font-weight: 100;
         cursor: pointer;
     }
+    .innerHeaderElem{
+        display: none;
+    }
 }

@@ -733,4 +733,10 @@ textarea {
     .innerHeaderElem{
         display: none;
     }
+    .leftWrpr{
+        width: 100%;
+    }
+    .rightWrpr{
+        display: none;
+    }
 }

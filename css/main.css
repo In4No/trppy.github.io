@@ -156,6 +156,8 @@ textarea {
     width: auto;
 }
 
+
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -194,6 +196,21 @@ textarea {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (max-width: 480px) {
+   .headerLeft{
+        width: 100%;
+        float: left;
+    }
+    .headerWrpr{
+        width: 100%;
+        padding: 10px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        border-bottom: 2px solid #bfbfbf;
+        height: 70px;
+    }
 }
 
 .bodyBg{
